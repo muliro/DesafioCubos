@@ -64,4 +64,4 @@ _Note: Instead of href="/" we use Link to="/"_
 Utilizado na aplicação para fazer requisições da api movie DB api, através de requisições tipo 'GET'e recebendo um Json como resposta.
 
 # Compilando e Executando
-Com App criado e dependencias instaladas, basta apenas copiar os arquivos e pastas e executar o comando _Yarn start_ ou _npm start_ e esperar compilação e execução do app.
+Com App criado e dependencias instaladas, basta apenas copiar a pasta src e executar o comando _Yarn start_ ou _npm start_ e esperar compilação e execução do app.
