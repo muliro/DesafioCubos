@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+header#main-header{
+  background: #116193;
+
+}
+header#main-header .header-content{
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header#main-header .header-text{
+  color: #02d2d7;
+  font-weight: 100;
+  font-family: 'Abel', sans-serif;
+}

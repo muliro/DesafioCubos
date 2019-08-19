@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+section#movies-info{
+  width: 100%;
+  max-width: 1280px;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section#movies-info .trailer{
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 3%
+}
+section#movies-info .divRow{
+  display: flex;
+  flex-direction:row;
+  flex-flow: row;
+  min-width: 100%;
+}
+section#movies-info .date{
+ font-size: 16px;
+ font-family: 'Abel', sans-serif;
+ padding-top: 2%;
+ color: #ffffff
+}
+section#movies-info #information .information .divRow1{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  align-items: flex-end
+}
+section#movies-info #information .information .divRow2{
+  display: flex;
+  flex-direction:row;
+  flex-flow: row wrap
+}
+section#movies-info .header{
+  padding: 0 3%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 100%;
+  background: #e6e6e6;
+  font-family: 'Abel', sans-serif;
+  color: #116193
+}
+
+section#movies-info #information .information{
+  background: #f2f2f2;
+  width: 100%
+}
+section#movies-info #information .information .subtitle{
+border: 0;
+border-bottom: 1px;
+border-style: solid;
+width: 90%;
+margin: 5% auto;
+font-size: 25px;
+font-family: 'Abel', sans-serif;
+color: #116193;
+border-color: #02d2d7
+}
+section#movies-info #information .information .divColum{
+  flex-direction: column;
+  margin-left: 3%
+}
+section#movies-info #information .information .overview{
+font-size: 16px;
+width: 90%;
+margin-left: 5%;
+word-wrap:  break-word; 
+display: block;
+}
+section#movies-info #information .information .title-information{
+font-size: 20px;
+font-family: 'Abel', sans-serif;
+color: #116193
+}
+section#movies-info #information .information .text-information{
+  font-size: 16px
+}
+section#movies-info #information .information .percent{
+  background: #116193;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10%;
+  margin-left: 1%
+}
+section#movies-info #information .information .percent-text{
+  color: #02d2d7;
+  font-weight: 100;
+  line-height: 2.2em;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  border: #02d2d7;
+  border: 3px;
+  border-style: solid;
+  height:90% ;
+  width: 90%;
+  border-radius: 51%
+}
